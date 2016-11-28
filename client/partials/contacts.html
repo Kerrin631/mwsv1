@@ -1,0 +1,139 @@
+
+      <!-- Page Content-->
+      <main class="page-content">
+        <section class="bg-breadcrumbs text-center text-sm-left txt-white section-sm-55 section-15">
+          <div class="shell">
+            <ol class="breadcrumb">
+              <li><a href="./">Home</a></li>
+              <li class="active">Contacts</li>
+            </ol>
+            <h1 class="offset-top-20">Contacts</h1>
+          </div>
+        </section>
+        <section class="section-50 section-md-120">
+          <div class="shell">
+            <div class="range">
+              <div class="cell-md-8">
+                <h3 class="divider-sm">Get in Touch</h3>
+                <p>You can contact us any way that is convenient for you. We are available 24/7 via email. You can also use a quick contact form below.</p>
+                <p>We look forward to hearing from you.</p>
+                <!-- RD Mailform-->
+                <form data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php" class="rd-mailform offset-top-50">
+                  <div class="range">
+                    <div class="cell-sm-6">
+                      <div class="form-group">
+                        <label for="contact-name1" class="form-label">First Name</label>
+                        <input id="contact-name1" type="text" name="name" data-constraints="@Required" class="form-control">
+                      </div>
+                    </div>
+                    <div class="cell-sm-6 offset-top-40 offset-sm-top-0">
+                      <div class="form-group">
+                        <label for="last-name" class="form-label">Last Name</label>
+                        <input id="last-name" type="text" name="name" data-constraints="@Required" class="form-control">
+                      </div>
+                    </div>
+                    <div class="cell-sm-6 offset-top-40">
+                      <div class="form-group">
+                        <label for="contact-email" class="form-label">E-Mail</label>
+                        <input id="contact-email" type="email" name="email" data-constraints="@Required @Email" class="form-control">
+                      </div>
+                    </div>
+                    <div class="cell-sm-6 offset-top-40">
+                      <div class="form-group">
+                        <label for="contact-phone" class="form-label">Phone</label>
+                        <input id="contact-phone" type="text" name="phone" data-constraints="@Required @Numeric" class="form-control">
+                      </div>
+                    </div>
+                    <div class="cell-xs-12 offset-top-40">
+                      <div class="form-group">
+                        <label for="contact-message" class="form-label">Message</label>
+                        <textarea id="contact-message" name="message" data-constraints="@Required" class="form-control"></textarea>
+                      </div>
+                      <button type="submit" class="btn btn-primary btn-sm-2 btn-shadow btn-rect btn-icon btn-icon-left offset-top-18"><span class="icon icon-white icon-md mdi-message-text-outline"></span><span>send message</span></button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="cell-md-4">
+                <div class="inset-lg-left-30">
+                  <div class="range">
+                    <!-- <div class="cell-sm-6 cell-md-12">
+                      <h5 class="txt-gray-darker">Follow us</h5>
+                      <div class="divider-lg offset-top-10"></div>
+                      <div class="btn-group-custom-2 offset-top-20"><a href="#" class="btn btn-facebook btn-shadow btn-round"><span class="fa-facebook-f icon icon-md"></span></a><a href="#" class="btn btn-twitter btn-shadow btn-round"><span class="fa-twitter icon icon-md"></span></a><a href="#" class="btn btn-google btn-shadow btn-round"><span class="fa-google icon icon-md"></span></a><a href="#" class="btn btn-linkedin btn-shadow btn-round"><span class="fa-linkedin icon icon-md"></span></a><a href="#" class="btn btn-instagram btn-shadow btn-round"><span class="fa-instagram icon icon-md"></span></a></div>
+                    </div> -->
+                    <div class="cell-sm-6 cell-md-12 offset-md-top-50">
+                      <h5 class="txt-gray-darker">E-mail</h5>
+                      <div class="divider-lg offset-top-10"></div>
+                      <div class="offset-top-20"><span class="icon icon-dark icon-sm-2 mdi-email-outline text-middle"></span> <a href="mailto:info@medwebstudio.com" class="text-middle txt-base">info@medwebstudio.com</a>
+                      </div>
+                    </div>
+                    <div class="cell-sm-6 cell-md-12 offset-sm-top-54">
+                      <h5 class="txt-gray-darker">Phone</h5>
+                      <div class="divider-lg offset-top-10"></div>
+                      <div class="offset-top-20"><span class="icon icon-dark icon-sm-2 mdi-phone text-middle"></span> <a href="callto:#" class="text-middle txt-base">1-800-1234-567</a>
+                      </div>
+                      <!-- <div class="offset-top-10"><span class="icon icon-dark icon-sm-2 mdi-phone text-middle"></span> <a href="callto:#" class="text-middle txt-base">1-800-9874-321</a>
+                      </div> -->
+                    </div>
+                    <div class="cell-sm-6 cell-md-12 offset-sm-top-54">
+                      <h5 class="txt-gray-darker">Address</h5>
+                      <div class="divider-lg offset-top-10"></div>
+                      <address class="address offset-top-20"><span class="icon icon-dark icon-sm-2 mdi-map-marker text-middle"></span>
+                        <div class="link-block text-middle"><a href="#" class="txt-base">2130 Fulton Street San Diego,<br class="veil reveal-lg-inline"> CA 94117-1080 USA</a></div>
+                      </address>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- RD Google Map-->
+        <div data-zoom="15" data-x="-95.420178" data-y="29.726571" data-styles="[{&quot;featureType&quot;:&quot;landscape&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#FFBB00&quot;},{&quot;saturation&quot;:43.400000000000006},{&quot;lightness&quot;:37.599999999999994},{&quot;gamma&quot;:1}]},{&quot;featureType&quot;:&quot;road.highway&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#FFC200&quot;},{&quot;saturation&quot;:-61.8},{&quot;lightness&quot;:45.599999999999994},{&quot;gamma&quot;:1}]},{&quot;featureType&quot;:&quot;road.arterial&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#FF0300&quot;},{&quot;saturation&quot;:-100},{&quot;lightness&quot;:51.19999999999999},{&quot;gamma&quot;:1}]},{&quot;featureType&quot;:&quot;road.local&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#FF0300&quot;},{&quot;saturation&quot;:-100},{&quot;lightness&quot;:52},{&quot;gamma&quot;:1}]},{&quot;featureType&quot;:&quot;water&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#0078FF&quot;},{&quot;saturation&quot;:-13.200000000000003},{&quot;lightness&quot;:2.4000000000000057},{&quot;gamma&quot;:1}]},{&quot;featureType&quot;:&quot;poi&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#00FF6A&quot;},{&quot;saturation&quot;:-1.0989010989011234},{&quot;lightness&quot;:11.200000000000017},{&quot;gamma&quot;:1}]}]" class="rd-google-map rd-google-map__model">
+          <ul class="map_locations">
+            <li data-x="-95.420178" data-y="29.726571">
+              <p>9870 St Vincent Place, Glasgow, DC 45 Fr 45.</p>
+            </li>
+          </ul>
+        </div>
+      </main>
+     
+    </div>
+    <!-- Global Mailform Output-->
+    <div id="form-output-global" class="snackbars"></div>
+    <!-- PhotoSwipe Gallery-->
+    <div tabindex="-1" role="dialog" aria-hidden="true" class="pswp">
+      <div class="pswp__bg"></div>
+      <div class="pswp__scroll-wrap">
+        <div class="pswp__container">
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
+        </div>
+        <div class="pswp__ui pswp__ui--hidden">
+          <div class="pswp__top-bar">
+            <div class="pswp__counter"></div>
+            <button title="Close (Esc)" class="pswp__button pswp__button--close"></button>
+            <button title="Share" class="pswp__button pswp__button--share"></button>
+            <button title="Toggle fullscreen" class="pswp__button pswp__button--fs"></button>
+            <button title="Zoom in/out" class="pswp__button pswp__button--zoom"></button>
+            <div class="pswp__preloader">
+              <div class="pswp__preloader__icn">
+                <div class="pswp__preloader__cut">
+                  <div class="pswp__preloader__donut"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+            <div class="pswp__share-tooltip"></div>
+          </div>
+          <button title="Previous (arrow left)" class="pswp__button pswp__button--arrow--left"></button>
+          <button title="Next (arrow right)" class="pswp__button pswp__button--arrow--right"></button>
+          <div class="pswp__caption">
+            <div class="pswp__caption__cent"></div>
+          </div>
+        </div>
+      </div>
+    </div>
