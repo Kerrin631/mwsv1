@@ -63,11 +63,11 @@ app.use(multer({ dest: './uploads/'}).single('file'));
 
 // Here we find an appropriate database to connect to, defaulting to
 // localhost if we don't find one.
-var uristring =
-process.env.MONGOLAB_URI ||
-process.env.MONGOHQ_URL ||
-process.env.MONGODB_URI ||
-'mongodb://localhost/HelloMongoose';
+// var uristring =
+// process.env.MONGOLAB_URI ||
+// process.env.MONGOHQ_URL ||
+// process.env.MONGODB_URI ||
+// 'mongodb://localhost/HelloMongoose';
 // Create a database variable outside of the database connection callback to reuse the connection pool in your app.
 // var db;
 
@@ -90,16 +90,16 @@ process.env.MONGODB_URI ||
 
 // });
 
-mongoose.connect(uristring, function (err, res) {
-  if (err) {
-    console.log ('ERROR connecting to: ' + uristring + '. ' + err);
-  } else {
-    console.log ('Succeeded connected to: ' + uristring);
-    var routes_setter = require('./server/config/routes.js');
-    routes_setter(app);
-    console.log("Database connection ready");
-  }
-});
+// mongoose.connect(uristring, function (err, res) {
+//   if (err) {
+//     console.log ('ERROR connecting to: ' + uristring + '. ' + err);
+//   } else {
+//     console.log ('Succeeded connected to: ' + uristring);
+//     var routes_setter = require('./server/config/routes.js');
+//     routes_setter(app);
+//     console.log("Database connection ready");
+//   }
+// });
 
 
 
