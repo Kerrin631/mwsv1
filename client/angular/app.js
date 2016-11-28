@@ -1,11 +1,11 @@
 var myAppModule = angular.module('medWebStudio', ['ui.router']);
 
 myAppModule.config(['$urlRouterProvider', '$stateProvider', '$locationProvider', function($urlRouterProvider, $stateProvider, $locationProvider) {
-    $urlRouterProvider.otherwise('#/home');
+    $urlRouterProvider.otherwise('/');
 
     $stateProvider
       .state('home', {
-        url: '/home',
+        url: '/',
         templateUrl: 'partials/home.html',
         controller: 'jsController',
       })

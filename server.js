@@ -111,7 +111,7 @@ var server = app.listen(process.env.PORT || 8080, function () {
 
 // module.exports = db;
 // require('./passport/passport.js')
-require('./server/config/mongoose.js');
+// require('./server/config/mongoose.js');
 // CONTACTS API ROUTES BELOW
 
 // Generic error handler used by all endpoints.
