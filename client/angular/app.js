@@ -14,6 +14,11 @@ myAppModule.config(['$urlRouterProvider', '$stateProvider', '$locationProvider',
         templateUrl: 'partials/about.html',
         controller: 'jsController',
       })
+      // .state('about', {
+      //   url: '/about',
+      //   templateUrl: 'partials/about.html',
+      //   controller: 'jsController',
+      // })
       .state('projects', {
         url: '/projects',
         templateUrl: 'partials/projects.html',
